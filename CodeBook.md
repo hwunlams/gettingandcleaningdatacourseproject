@@ -1,5 +1,6 @@
 All the data is downloaded from the following location:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 The data is unzip and reviewed. The dataset gather data from 30 subjects using 6 activity categories:
 WALKING
 WALKING_UPSTAIRS
@@ -7,6 +8,7 @@ WALKING_DOWNSTAIRS
 SITTING
 STANDING
 LAYING 
+
 It consists of inertial data and 561 measurements derived from the inertial data. The former is ignore in this project. Out of the 561 measurements, only those of means and standard deviations are keep due to the project request. The following transformations has been done on these raw files:
 test/subject_test.txt (Subject data part 1)
 test/X_test.txt   (Feature data part 1)
