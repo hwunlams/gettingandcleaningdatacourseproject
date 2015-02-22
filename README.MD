@@ -1,0 +1,1 @@
+Please run the run_analysis script. It has include functions such as downloading and unzipping raw data for the preparation of analysis. The script will output a txt file named averagepersubjectactivity in the home directory which was submitted to the project website.
